@@ -1,5 +1,6 @@
 # Defold API VS Code Snippets
 
+You can download the snippets from [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets)
 
 Full api snippets for [Defold Engine](https://www.defold.com/).
 
