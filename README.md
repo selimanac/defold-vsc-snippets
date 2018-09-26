@@ -21,11 +21,21 @@ Properties are with quotation marks:
 
 Initial release based on API version 1.2.137. 
 
+## Recommended Settings & Extension
 
+Add .script files to your settings
 
------------------------------------------------------------------------------------------------------------
+```json
+"files.associations": {
+        "*.script": "lua",
+        "*.gui_script": "lua",
+        "*.render_script": "lua"
+      }
+ ```   
+
+Install [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua): Lua for Visual Studio Code. Provides Intellisense and Linting for Lua in VSCode
+
 
 ## Json Parser
 
 I build this snippet with a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). Feel free to update it. 
-
