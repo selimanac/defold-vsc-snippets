@@ -1,11 +1,16 @@
 import os, json
 import re
+from collections import defaultdict
+
+class element(object):
+    def __init__(self,name):
+      self.name = name
 
 #path to your Defold API doc folder
 path_to_json = '.' 
 
 #dict for content
-data = {} 
+data = defaultdict(list)
 
 #get json files names from folder
 json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
@@ -30,18 +35,25 @@ for _files in json_files:
              _i = 1
         _ii = 1     
         _p_v = ""
-
+        _p_v_temp = ""
         #parameters loop
         for _params in _method["parameters"] :
             if _ii == 1:
                 _p_v = "${"+str(_i)+":" + _params["name"] + "}"
+                _p_v_temp =  _params["name"]
             else:    
                 _p_v = _p_v +  ", ${"+str(_i)+":" + _params["name"] + "}"
+                _p_v_temp =  _p_v_temp + ", " + _params["name"]
         
             _i = _i+1
             _ii = _ii+1
-           
-        _new_key = _method["name"]
+            
+            
+        if _p_v_temp != "":                
+            _new_key = _method["name"] + " " + _p_v_temp
+        else:
+            _new_key = _method["name"] 
+        
         _body=""
 
         #FUNCTION - MESSAGE - PROPERTY
@@ -60,12 +72,13 @@ for _files in json_files:
             
         #format snippets           
         _new_value = {
-            "prefix": _method["name"],
+            "prefix": _new_key,
             "body":   _body,
             "description": remove_tags(_method["brief"])
                 }
-        data[_new_key] = _new_value
-
+        data[_new_key].append(_new_value)        
+        #data[_new_key] = _new_value
+        dict(data)
   
 #save to new file
 with open('bin/data.json', 'w') as outfile:  
