@@ -30,6 +30,11 @@ You can download the snippets from [marketplace](https://marketplace.visualstudi
 
 ## Release Notes
 
+### 1.0.2
+
+Missing functions and methods are added.
+Args added to the list.
+
 ### 1.0.0
 
 Initial release based on API version 1.2.137. 
