@@ -32,7 +32,8 @@ You can download the snippets from [marketplace](https://marketplace.visualstudi
 
 ### 1.0.2
 
-Missing functions and methods are added.
+Missing functions, methods and properties are added.
+
 Args added to the list.
 
 ### 1.0.0
