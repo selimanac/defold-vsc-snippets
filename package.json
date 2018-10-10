@@ -13,7 +13,7 @@
 	"bugs": {
 		"url": "https://github.com/selimanac/defold-vsc-snippets/issues"
     },
-    "icon": "icon.png",
+    "icon": "icondefold.png",
     "engines": {
         "vscode": "^1.27.0"
     },
