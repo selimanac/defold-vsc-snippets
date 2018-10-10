@@ -2,16 +2,16 @@
     "name": "defold-vsc-snippets",
     "displayName": "Defold API Snippets",
     "description": "Defold API snippets for Visual Studio Code",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "publisher": "selimanac",
     "license": "MIT",
     "repository": {
-		"type": "git",
-		"url": "https://github.com/selimanac/defold-vsc-snippets"
+        "type": "git",
+        "url": "https://github.com/selimanac/defold-vsc-snippets"
     },
     "homepage": "https://github.com/selimanac/defold-vsc-snippets",
-	"bugs": {
-		"url": "https://github.com/selimanac/defold-vsc-snippets/issues"
+    "bugs": {
+        "url": "https://github.com/selimanac/defold-vsc-snippets/issues"
     },
     "icon": "icondefold.png",
     "engines": {
