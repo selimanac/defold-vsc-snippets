@@ -50,7 +50,7 @@ for _files in json_files:
             
             
         if _p_v_temp != "":                
-            _new_key = _method["name"] + " " + _p_v_temp
+            _new_key = _method["name"] + "(" + _p_v_temp + ")"
         else:
             _new_key = _method["name"] 
         
@@ -81,5 +81,5 @@ for _files in json_files:
         dict(data)
   
 #save to new file
-with open('bin/data.json', 'w') as outfile:  
+with open('bin/defold-snippets.json', 'w') as outfile:  
     json.dump(data, outfile)

@@ -2,7 +2,7 @@
     "name": "defold-vsc-snippets",
     "displayName": "Defold API Snippets",
     "description": "Defold API snippets for Visual Studio Code",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "selimanac",
     "license": "MIT",
     "repository": {
