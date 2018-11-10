@@ -1,8 +1,10 @@
-# Defold API VS Code Snippets
+# Defold API Snippets for Visual Studio Code
 
-Full api snippets for [Defold Engine](https://www.defold.com/).
+Full api snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  All functions, messages and properties are separated, includes parameters and brief descriptions.
 
-You can download the snippets from [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets). Initial release is based on API version 1.2.137. All functions, messages and properties are separated and includes all the parameters. 
+**Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
+**Defold Community:** https://www.defold.com/community/projects/121893/  
+**Github:** https://github.com/selimanac/defold-vsc-snippets
 
 ![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vcs.png)
 
@@ -30,21 +32,28 @@ You can download the snippets from [marketplace](https://marketplace.visualstudi
 
 ## Release Notes
 
+### 1.1.4
+
+* API version 1.2.138
+* Missing functions, methods and properties are added properly.
+* Properties added to the body.
+
+(Sorry for the version numbering, vsce publish minor cause this )
+
+![focus](https://forum.defold.com/uploads/default/original/2X/0/0529da4cc744d5a2c8b08c9d45807cd86f370c64.png)
+
 ### 1.0.2
 
-Missing functions, methods and properties are added.
-
-Args added to the list.
+* Missing functions, methods and properties are added.
+* Args added to the list.
 
 ### 1.0.0
 
-Initial release based on API version 1.2.137. 
+* Initial release based on API version 1.2.137. 
 
 ## Recommended Settings & Extension
 
-Install [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua): Lua for Visual Studio Code. Provides Intellisense and Linting for Lua in VSCode
-
-Add .script files to your settings
+### Add .script files to your settings
 
 ```json
 "files.associations": {
@@ -54,7 +63,13 @@ Add .script files to your settings
       }
  ```   
 
+### You can use those extensions with this snippet:
 
+* [Lua language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=keyring.Lua)
+* [Lint Lua scripts with luac or luajit](https://marketplace.visualstudio.com/items?itemName=dcr30.lualinter)
+* [Improved Lua syntax highlighting](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)
+* [Support go to defintion and List Document Symbols.](https://marketplace.visualstudio.com/items?itemName=xxxg0001.lua-for-vscode)
+* [Intellisense and Linting for Lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua)
 
 
 ## Json Parser
