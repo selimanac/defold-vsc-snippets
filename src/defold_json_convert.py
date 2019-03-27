@@ -27,6 +27,7 @@ for _files in json_files:
     json_file_name = _files
     json_file = json.loads(open(json_file_name).read()) #open file
 
+   
     #elements loop
     for _method in json_file["elements"] :
         if _method["type"] == "MESSAGE":

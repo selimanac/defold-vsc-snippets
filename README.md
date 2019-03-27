@@ -32,6 +32,9 @@ Full api snippets for [Defold Engine](https://www.defold.com/) is available on [
 
 ## Release Notes
 
+### 1.1.6
+* API version 1.2.149
+
 ### 1.1.5
 * API version 1.2.147
 
