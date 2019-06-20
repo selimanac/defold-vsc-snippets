@@ -3,3 +3,5 @@ node_modules
 docs.txt
 /src/*.json
 /src/bin/*.*
+/src/dm/*.json
+/src/dm/bin/*.json

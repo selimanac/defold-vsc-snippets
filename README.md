@@ -32,6 +32,10 @@ Full api snippets for [Defold Engine](https://www.defold.com/) is available on [
 
 ## Release Notes
 
+### 1.2.0
+
+LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets with C++ now.
+
 ### 1.1.7
 * API version 1.2.156
 

@@ -88,5 +88,5 @@ for _files in json_files:
         dict(data)
 
 # save to new file
-with open('bin/defold-snippets.json', 'w') as outfile:
+with open('bin/defold-dm-snippets.json', 'w') as outfile:
     json.dump(data, outfile)
