@@ -8,7 +8,7 @@ All Lua and C++ methods, messages,  properties and brief descriptions are includ
 #### **Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
 
 
-[![selimanac/defold-vsc-snippets - GitHub](https://gh-card.dev/repos/selimanac/defold-vsc-snippets.svg)](https://github.com/selimanac/defold-vsc-snippets)
+[![selimanac/defold-vsc-snippets - GitHub](https://gh-card.dev/repos/selimanac/defold-vsc-snippets.png)](https://github.com/selimanac/defold-vsc-snippets)
 
 
 
