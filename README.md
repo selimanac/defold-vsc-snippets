@@ -3,9 +3,9 @@
 # Defold API Snippets for Visual Studio Code
 
 Full api snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
-All functions, messages and properties are separated, includes parameters and brief descriptions.
+All Lua and C++ methods, messages,  properties and brief descriptions are included.
 
-**Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
+#### **Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
 
 
 [![selimanac/defold-vsc-snippets - GitHub](https://gh-card.dev/repos/selimanac/defold-vsc-snippets.svg)](https://github.com/selimanac/defold-vsc-snippets)
@@ -84,13 +84,14 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 "files.associations": {
         "*.script": "lua",
         "*.gui_script": "lua",
-        "*.render_script": "lua"
+        "*.render_script": "lua",
+        "*.editor_script": "lua"
       }
 ```  
 
-### You can use those extensions with this snippet:
+### Useful Extensions
 
-* [EmmyLua](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua) 
+* [EmmyLua](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua) (Suggested)
 * [Lua language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=keyring.Lua)
 * [Lint Lua scripts with luac or luajit](https://marketplace.visualstudio.com/items?itemName=dcr30.lualinter)
 * [Improved Lua syntax highlighting](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)
@@ -100,4 +101,4 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 
 ## Json Parser
 
-I build this snippet with a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). Feel free to update it. 
+I build this snippets with a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). 
