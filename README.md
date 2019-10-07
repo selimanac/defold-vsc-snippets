@@ -1,14 +1,22 @@
+![Defold Api](https://selimanac.github.io/assets/gfx/vscode-api-2000x666.png)
+
 # Defold API Snippets for Visual Studio Code
 
-Full api snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  All functions, messages and properties are separated, includes parameters and brief descriptions.
+Full api snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
+All functions, messages and properties are separated, includes parameters and brief descriptions.
 
 **Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
-**Defold Community:** https://www.defold.com/community/projects/121893/  
-**Github:** https://github.com/selimanac/defold-vsc-snippets
+
+
+[![selimanac/defold-vsc-snippets - GitHub](https://gh-card.dev/repos/selimanac/defold-vsc-snippets.svg)](https://github.com/selimanac/defold-vsc-snippets)
+
+
+
+
+------------
 
 ![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vcs.png)
 
-------------
 
 ### Ordered Tabstops
 
@@ -18,9 +26,9 @@ Full api snippets for [Defold Engine](https://www.defold.com/) is available on [
 
 
 
-`play_sound ->  msg.post(receiver, "play_sound", {[delay], [gain]})`
+`play_sound` ->  `msg.post(receiver, "play_sound", {[delay], [gain]})`
 
-`model_animation_done -> msg.post(receiver, "model_animation_done", {animation_id, playback})`
+`model_animation_done` -> `msg.post(receiver, "model_animation_done", {animation_id, playback})`
 
 ![focus](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/input_focus.gif)
 
@@ -31,6 +39,9 @@ Full api snippets for [Defold Engine](https://www.defold.com/) is available on [
 `"scale"`
 
 ## Release Notes
+
+### 1.2.1
+* API version 1.2.163
 
 ### 1.2.0
 
@@ -75,10 +86,11 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
         "*.gui_script": "lua",
         "*.render_script": "lua"
       }
- ```   
+```  
 
 ### You can use those extensions with this snippet:
 
+* [EmmyLua](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua) 
 * [Lua language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=keyring.Lua)
 * [Lint Lua scripts with luac or luajit](https://marketplace.visualstudio.com/items?itemName=dcr30.lualinter)
 * [Improved Lua syntax highlighting](https://marketplace.visualstudio.com/items?itemName=jep-a.lua-plus)
