@@ -100,4 +100,4 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 
 ## Json Parser
 
-I build this snippets by using a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/58d7bf408c8c7bf40acf95fb7272b174e1095bd1/src/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/58d7bf408c8c7bf40acf95fb7272b174e1095bd1/src/defold_json_convert.py). 
+I build this snippets by using a simple Python script. It parses all json files from api docs and converts them to single snippet file. It is available in the `src` folder of [Github repo](https://github.com/selimanac/defold-vsc-snippets).
