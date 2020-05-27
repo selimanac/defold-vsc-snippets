@@ -35,6 +35,10 @@ All Lua and C++ methods, messages,  properties and brief descriptions are includ
 
 ## Release Notes
 
+### 1.2.2
+* API version 1.2.169
+* Python script is updated. It is now download, unpack and parse the docs. Python script requires Python version 2.7. It may fail with Python version 3.x
+
 ### 1.2.1
 * API version 1.2.163
 
@@ -60,7 +64,7 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 
 (Sorry for the version numbering, vsce publish minor cause this )
 
-![focus](https://forum.defold.com/uploads/default/original/2X/0/0529da4cc744d5a2c8b08c9d45807cd86f370c64.png)
+
 
 ### 1.0.2
 
@@ -96,4 +100,4 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 
 ## Json Parser
 
-I build this snippets with a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/master/scr/defold_json_convert.py). 
+I build this snippets by using a simple [Python script](https://github.com/selimanac/defold-vsc-snippets/blob/58d7bf408c8c7bf40acf95fb7272b174e1095bd1/src/defold_json_convert.py). It parses all json files from api docs and converts them to single snippet file. It is available [here](https://github.com/selimanac/defold-vsc-snippets/blob/58d7bf408c8c7bf40acf95fb7272b174e1095bd1/src/defold_json_convert.py). 

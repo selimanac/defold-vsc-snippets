@@ -2,6 +2,9 @@ node_modules
 *.vsix
 docs.txt
 /src/*.json
-/src/bin/*.*
-/src/dm/*.json
-/src/dm/bin/*.json
+/src/dm
+/src/dm/
+/src/defolddocs
+/src/defolddocs/
+/src/defolddocs/*.*
+*.zip
