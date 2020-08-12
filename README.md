@@ -35,6 +35,10 @@ All Lua and C++ methods, messages,  properties and brief descriptions are includ
 
 ## Release Notes
 
+### 1.2.171
+* API version 1.2.171
+* Version numbering has changed for better following the Defold API changes.
+
 ### 1.2.2
 * API version 1.2.169
 * Python script is updated. It is now download, unpack and parse the docs. Python script requires Python version 2.7. It may fail with Python version 3.x
