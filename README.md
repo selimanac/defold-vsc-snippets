@@ -35,6 +35,9 @@ All Lua and C++ methods, messages,  properties and brief descriptions are includ
 
 ## Release Notes
 
+### 1.2.175
+* API version 1.2.175
+
 ### 1.2.171
 * API version 1.2.171
 * Version numbering has changed for better following the Defold API changes.
