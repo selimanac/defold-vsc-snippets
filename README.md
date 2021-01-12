@@ -10,7 +10,7 @@ Lua & C/C++ API Reference snippets for [Defold Engine](https://www.defold.com/) 
 
 ------------
 
-![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vscode.png)
+![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vscode_view.png)
 
 
 ### Ordered Tabstops
