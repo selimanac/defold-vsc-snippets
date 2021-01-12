@@ -21,13 +21,13 @@ Lua & C/C++ API Reference snippets for [Defold Engine](https://www.defold.com/) 
 
 
 #### Examples: 
-Type `play_sound` and it will generate  `msg.post(receiver, "play_sound", {[delay], [gain]})`
+Type `playsound` and it will generate  `msg.post(receiver, "play_sound", {[delay], [gain]})`
 
-Type `model_animation_done` and it will generate `msg.post(receiver, "model_animation_done", {animation_id, playback})`
+Type `modelanimationdone` and it will generate `msg.post(receiver, "model_animation_done", {animation_id, playback})`
 
-![focus](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/input_focus.gif)
+![playsound](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/play_sound_opti.gif)
 
-![focus](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/clear_color.gif)
+
 
 
 
