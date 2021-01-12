@@ -2,16 +2,13 @@
 
 # Defold API Snippets for Visual Studio Code
 
-Lua & C API snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
-
-All Lua and C/C++ methods, messages,  properties and brief descriptions are included.
+Lua & C/C++ API Reference snippets for [Defold Engine](https://www.defold.com/) is available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
 
 [![Github](https://img.shields.io/static/v1?label=Github&message=v1.2.178&color=blue)](https://github.com/selimanac/defold-vsc-snippets)
 
-
 [![vcs](https://img.shields.io/static/v1?label=Visual%20Studio%20Marketplace&message=v1.2.178&color=blue)](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets)
-------------
 
+------------
 
 ![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vcs.png)
 
