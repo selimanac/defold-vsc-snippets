@@ -2,7 +2,7 @@
     "name": "defold-vsc-snippets",
     "displayName": "Defold API Snippets",
     "description": "Defold API snippets for Visual Studio Code",
-    "version": "1.2.175",
+    "version": "1.2.178",
     "publisher": "selimanac",
     "license": "MIT",
     "repository": {
@@ -20,11 +20,13 @@
     "categories": [
         "Snippets"
     ],
+   
     "contributes": {
         "snippets": [
             {
                 "language": "lua",
-                "path": "./snippets/defold-snippets.json"
+                "path": "./snippets/defold-snippets.json",
+                "extensions": [ ".script", ".gui_script", ".lua", ".render_script" ]
             },
             {
                 "language": "cpp",

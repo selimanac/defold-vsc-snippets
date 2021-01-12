@@ -100,6 +100,8 @@ json_files = [pos_json for pos_json in os.listdir(
 TAG_RE = re.compile(r'<[^>]+>')
 
 # Remove html tags from brief
+
+
 def remove_tags(text):
     return TAG_RE.sub('', text)
 
@@ -161,11 +163,9 @@ for _files in json_files:
         }
 
         if "dm" in json_file_name or "shared" in json_file_name:
-           # print("File Name: %s" % json_file_name)
             dm_data[_new_key].append(_new_value)
             dict(dm_data)
         else:
-
             data[_new_key].append(_new_value)
             dict(data)
 

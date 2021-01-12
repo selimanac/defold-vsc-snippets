@@ -1,14 +1,17 @@
-![Defold Api](https://selimanac.github.io/assets/gfx/vscode-api-2000x666.png)
+![Defold API Reference](https://selimanac.github.io/assets/gfx/vscode-api-2000x666.png)
 
 # Defold API Snippets for Visual Studio Code
 
-Full api snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
-All Lua and C++ methods, messages,  properties and brief descriptions are included.
+Lua & C API snippets for [Defold Engine](https://www.defold.com/) is available on [marketplace](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets).  
 
-**Marketplace:** https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets  
-**Github:** https://github.com/selimanac/defold-vsc-snippets
+All Lua and C/C++ methods, messages,  properties and brief descriptions are included.
 
+[![Github](https://img.shields.io/static/v1?label=Github&message=v1.2.178&color=blue)](https://github.com/selimanac/defold-vsc-snippets)
+
+
+[![vcs](https://img.shields.io/static/v1?label=Visual%20Studio%20Marketplace&message=v1.2.178&color=blue)](https://marketplace.visualstudio.com/items?itemName=selimanac.defold-vsc-snippets)
 ------------
+
 
 ![vcs](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/vcs.png)
 
@@ -20,71 +23,23 @@ All Lua and C++ methods, messages,  properties and brief descriptions are includ
 ### Message Generation
 
 
+#### Examples: 
+Type `play_sound` and it will generate  `msg.post(receiver, "play_sound", {[delay], [gain]})`
 
-`play_sound` ->  `msg.post(receiver, "play_sound", {[delay], [gain]})`
-
-`model_animation_done` -> `msg.post(receiver, "model_animation_done", {animation_id, playback})`
+Type `model_animation_done` and it will generate `msg.post(receiver, "model_animation_done", {animation_id, playback})`
 
 ![focus](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/input_focus.gif)
 
 ![focus](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/clear_color.gif)
 
-### Properties with quotation marks
-
-`"scale"`
-
-## Release Notes
-
-### 1.2.175
-* API version 1.2.175
-
-### 1.2.171
-* API version 1.2.171
-* Version numbering has changed for better following the Defold API changes.
-
-### 1.2.2
-* API version 1.2.169
-* Python script is updated. It is now download, unpack and parse the docs. Python script requires Python version 2.7. It may fail with Python version 3.x
-
-### 1.2.1
-* API version 1.2.163
-
-### 1.2.0
-
-LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets with C++ now.
-
-### 1.1.7
-* API version 1.2.156
-
-### 1.1.6
-* API version 1.2.149
-
-### 1.1.5
-* API version 1.2.147
-
-
-### 1.1.4
-
-* API version 1.2.138
-* Missing functions, methods and properties are added properly.
-* Properties added to the body.
-
-(Sorry for the version numbering, vsce publish minor cause this )
 
 
 
-### 1.0.2
 
-* Missing functions, methods and properties are added.
-* Args added to the list.
-
-### 1.0.0
-
-* Initial release based on API version 1.2.137. 
 
 ## Recommended Settings & Extension
 
-### Add .script files to your settings
+Add Defold `files.associations` to your `settings.json` file. Also setting `editor.snippetSuggestions` to `bottom` change the order relative to suggestions. 
 
 ```json
 "files.associations": {
@@ -92,10 +47,11 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
         "*.gui_script": "lua",
         "*.render_script": "lua",
         "*.editor_script": "lua"
-      }
+      },
+"editor.snippetSuggestions": "bottom"
 ```  
 
-### Useful Extensions
+##  Recommended Extension
 
 * [EmmyLua](https://marketplace.visualstudio.com/items?itemName=tangzx.emmylua) (Suggested)
 * [Lua language support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=keyring.Lua)
@@ -107,4 +63,6 @@ LUA and C++ (Defold SDK) APIs are separated. You can use Defold SDK snippets wit
 
 ## Json Parser
 
-I build this snippets by using a simple Python script. It parses all json files from api docs and converts them to single snippet file. It is available in the `src` folder of [Github repo](https://github.com/selimanac/defold-vsc-snippets).
+There is a Python script which download and parse the latest version of the Defold API Reference available on [Github repo](https://github.com/selimanac/defold-vsc-snippets).
+
+
