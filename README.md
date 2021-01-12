@@ -15,28 +15,22 @@ Lua & C/C++ API Reference snippets for [Defold Engine](https://www.defold.com/) 
 
 ### Ordered Tabstops
 
-![Ordered Tabstops](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/orderedtabstops.gif)
+![Ordered Tabstops](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/play_sound_tabs.gif)
 
 ### Message Generation
-
 
 #### Examples: 
 Type `playsound` and it will generate  `msg.post(receiver, "play_sound", {[delay], [gain]})`
 
 Type `modelanimationdone` and it will generate `msg.post(receiver, "model_animation_done", {animation_id, playback})`
 
-![playsound](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/play_sound_opti.gif)
-
-
-
-
-
-
+![playsound](https://github.com/selimanac/defold-vsc-snippets/raw/master/images/play_sound.gif)
 
 
 ## Recommended Settings & Extension
 
-Add Defold `files.associations` to your `settings.json` file. Also setting `editor.snippetSuggestions` to `bottom` change the order relative to suggestions. 
+Add Defold `files.associations` to your `settings.json` file.  
+Setting `editor.snippetSuggestions` to `bottom` change the order relative to suggestions. 
 
 ```json
 "files.associations": {
