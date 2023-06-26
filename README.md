@@ -1,3 +1,7 @@
+### This project is archived. Defold has better VSC plugins now. 
+You can use https://github.com/astrochili/defold-vscode-guide
+
+    
 ![Defold API Reference](https://selimanac.github.io/assets/gfx/vscode-api-2000x666.png)
 
 # Defold API Snippets for Visual Studio Code
